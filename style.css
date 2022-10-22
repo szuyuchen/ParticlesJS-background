@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #205e49;
+}
+
+h1 {
+  color: #fff;
+  font-size: 90px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 40vh;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  z-index: 9999;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
